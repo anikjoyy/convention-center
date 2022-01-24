@@ -103,3 +103,25 @@ Hot Offer Card CSS
   background-color: #0000ff;
   color: #ffffff;
 }
+
+/* ---------------------------------
+Contact CSS
+---------------------------------- */
+
+.convention-bg-info {
+  background-color: #4a8ef5;
+}
+
+.contact-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 90px;
+  color: #3f87f5;
+  font-weight: bold;
+}
+
+.contact-btn:hover {
+  background-color: #0000ff;
+  color: #ffffff;
+}
