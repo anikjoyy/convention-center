@@ -34,3 +34,72 @@ Banner Section CSS
   background-color: #0000ff;
   color: #ffffff;
 }
+
+/* ---------------------------------
+Package Section CSS
+-------------------------------------------- */
+
+.btn-price-plan {
+  background-color: #f7daec;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 60px;
+  color: #3f87f5;
+  font-weight: bold;
+}
+
+.btn-price-plan:hover {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.package-price {
+  color: #231d4f;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.package-heading {
+  color: #231d4f;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.package-text {
+  color: #848199;
+}
+
+.price-ul-design {
+  padding-left: 0;
+}
+
+.price-list-design {
+  list-style: none;
+}
+
+/* -----------------------------
+Hot Offer Card CSS
+---------------------------------- */
+
+.hot-offer-card {
+  background-color: #3f87f5;
+  color: #ffffff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hot-offer-btn {
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 60px;
+  color: #3f87f5;
+  font-weight: bold;
+}
+
+.hot-offer-btn:hover {
+  background-color: #0000ff;
+  color: #ffffff;
+}
