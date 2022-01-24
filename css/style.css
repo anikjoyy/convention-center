@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* -----------------------------------
-common css classes design
+common CSS classes design
 -------------------------------------- */
 body {
   font-family: 'Poppins', sans-serif;
@@ -33,6 +33,16 @@ Banner Section CSS
 .banner-btn:hover {
   background-color: #0000ff;
   color: #ffffff;
+}
+
+/* -------------------------
+Toast Section CSS
+-------------------------------------- */
+.toast-design {
+  display: flex;
+  float: right;
+  position: relative;
+  top: -250px;
 }
 
 /* ---------------------------------
@@ -85,6 +95,7 @@ Hot Offer Card CSS
   background-color: #3f87f5;
   color: #ffffff;
   border-radius: 20px;
+  margin-top: -5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -124,4 +135,21 @@ Contact CSS
 .contact-btn:hover {
   background-color: #0000ff;
   color: #ffffff;
+}
+
+/* -----------------------------------------
+media query
+--------------------------------- */
+@media (max-width: 544px) {
+  .banner-font-size {
+    font-size: 1.75rem;
+  }
+
+  .btn-price-plan {
+    padding: 10px 50px;
+  }
+
+  .hot-offer-btn {
+    padding: 10px 50px;
+  }
 }
